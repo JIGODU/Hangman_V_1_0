@@ -7,5 +7,8 @@ Works in almost all Python3.x
 ## Dependancies
 Like Other ones I try to keep it without installing any additional package than the in-built
 
+## Starting
+__Run__ the >hangman.py file with python most suitabily in Windows Command Prompt
+
 __I am soon going to make this version 2 of this game with more features and controls__
 __Hope You like it :heart:__
