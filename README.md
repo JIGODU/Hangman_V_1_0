@@ -1,5 +1,11 @@
-Hangman_v_0_p_3
-This program is an open beta it will be closed soon to a newer version preferrably to 1.0
-Basically a hangman program in CLI interface coded in python suitable for both linux terminal and windows command prompts
-by Jigodu
-Comment if you have to improve
+# Hangman_V_1_0
+This is the starting of my python projects. I have learned python before but these projects helped me grow more and I am continuing the system. I did'nt know what github actually was except everyone was talking about it. Well as time progresses we also progresses if we put effort into it. This is another one of the CLI game i am developing.
+
+## System Requirements
+Works in almost all Python3.x
+
+## Dependancies
+Like Other ones I try to keep it without installing any additional package than the in-built
+
+__I am soon going to make this version 2 of this game with more features and controls__
+__Hope You like it :heart:__
