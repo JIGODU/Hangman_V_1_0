@@ -1,5 +1,8 @@
-#tech.training@pragmatrixlearning.com
+# Importing Certain Modules
 from os import system,name
+import time
+import random
+
 def clean():
     if (name=='nt'):
         system('cls')
@@ -8,9 +11,12 @@ def clean():
     if(name=='nt'):
         system('mode con cols=120 lines=30')
     else:
-        system("printf '\e[8;30;120t'")
-import time
-import random
+        system("printf \'\\e[8;30;120t\'")
+
+# Add your own dataset or uncomment if you know those ones
+names=[]
+
+#  My native movie dataset
 names=['vettam','charlie','thattathin marayath','manichithrathazh','chithram','banglore days','premam','ustad hotel','devasuram','ravanaprabhu','narasimham','amaram','drishyam','kammatti padam','thanmathra','oru vadakkan veeragadha','sandesham','takeoff','virus','kireedam','ramji rao speaking','ohm shanthi oshana','thoovanathumpikal','maheshinte prathikaram','annayum rasoolum','joseph','amen','ezra','nort 24 kaatham','kala pani','neram','traffic','nadodikkattu','thondimuthalum driksakshiyum','vadakkunokkiyanthram','bharatham','njan prakashan','pranjiyettan and the saint','ennu ninte moideen','22 female kottayam','pattanapravesham','pazhashiraja','pattanapravesham','mumbai police','classmates','june','oru cbi diary kurippu','angamaly diaries','iyyobinte pusthakam','aadhyarathri','odiyan','spadikam','namukku parkkan munthirithoppukal','pulimurukan','perumthachan','vaishali','mrigaya','oru minnaminunginte nurungu vettam','thenmavin kombath','ozhimuri','kamaladalam','njan gandharvan','his highness abdulla','bhramaram','vadkkum nathan','kilukkam','adharvam','akkare akkare akkare','pappayude swantham appoos','yathrakarude sradhakku','spirit','left right left','celluloid','oru mexican aparatha','godha','ambili','athiran','gappi']
 ext=0
 while(ext!=1):
@@ -149,6 +155,4 @@ while(ext!=1):
     else:
         clean()
         print("WRONG INPUT")
-        time.sleep(2)
-                        
-                    
+        time.sleep(2)                
